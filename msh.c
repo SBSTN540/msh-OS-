@@ -1,3 +1,10 @@
+// *******************************************************************************************************
+// msh.c
+// Contributors: Sebastian Ruiz
+// Last Edited: 24 September 2019 
+// Description: Light weight shell client
+// *******************************************************************************************************
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,7 +16,6 @@
 
 // max length input string
 #define MAXSTR 120
-
 
 int main( int argc, char *argv[]) {
       FILE *fp;
